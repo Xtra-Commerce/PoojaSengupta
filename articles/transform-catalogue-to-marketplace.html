@@ -38,44 +38,45 @@
     </script>
 </head>
 <body>
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo"><a href="../index.html">Pooja Sengupta</a></div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
-                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
-                <a href="../founder-journey.html">Founder Journey</a>
-                <a href="../insights.html">Insights</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-            </div>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link active">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
         </div>
     </nav>
 
     <div class="breadcrumbs">
-        <div class="container-narrow">
-            <a href="../index.html">Home</a> / <a href="../insights.html">Insights</a> / Transform Catalogue to Marketplace
+        <div class="wrap">
+            <a href="../index.html">Home</a> <span>/</span> <a href="../insights.html">Insights</a> <span>/</span> <span>How to Transform a Digital Catalogue into a Full-Scale Marketplace</span>
         </div>
     </div>
 
-    <header class="pillar-hero">
-        <div class="container-narrow">
-            <span class="category-label">Marketplace Strategy</span>
+    <section class="hero hero--narrow">
+        <div class="hero-text">
+            <span class="hero-label">Marketplace Strategy</span>
             <h1>How to Transform a Digital Catalogue into a Full-Scale Marketplace</h1>
-            <p class="hero-subtitle">Strategic and tactical approaches to evolve from a centralized catalog model to a distributed marketplace with 60+ retailers, 120% month-over-month growth, and multi-channel monetization.</p>
-            <div class="article-meta">
-                <span class="author">By Pooja Sengupta</span>
-                <span class="read-time">18 min read</span>
+            <p class="hero-desc">Strategic and tactical approaches to evolve from a centralized catalog model to a distributed marketplace with 60+ retailers, 120% month-over-month growth, and multi-channel monetization.</p>
+            <div class="hero-meta">
+                <span>By Pooja Sengupta</span>
+                <span>18 min read</span>
             </div>
         </div>
-    </header>
+    </section>
 
-    <div class="container-narrow">
+    <div class="wrap--narrow">
         <nav class="toc">
-            <h3>Table of Contents</h3>
-            <ul>
+            <h3 class="toc-title">Table of Contents</h3>
+            <ol>
                 <li><a href="#why-evolve">Why Digital Catalogues Need to Evolve</a></li>
                 <li><a href="#assess-readiness">Assessing Your Organization's Readiness</a></li>
                 <li><a href="#platform-selection">Platform Selection: Why Marketplacer</a></li>
@@ -85,10 +86,10 @@
                 <li><a href="#monetization">Monetization: From Listings to Retail Media</a></li>
                 <li><a href="#results">Results and Key Metrics</a></li>
                 <li><a href="#faq">FAQs</a></li>
-            </ul>
+            </ol>
         </nav>
 
-        <article class="article-content">
+        <article class="prose">
             <section id="why-evolve">
                 <h2>Why Digital Catalogues Need to Evolve</h2>
                 <p>A digital catalogue is fundamentally centralized: a company owns the inventory, manages supplier relationships, controls pricing, and bears the financial burden of holding stock. This model works well for companies with limited scale or highly specialized product ranges. But it hits a ceiling.</p>
@@ -124,8 +125,9 @@
                 <h3>Financial Readiness</h3>
                 <p>Marketplace transformation is not cheap. You'll invest in platform licensing, team hiring, seller acquisition, and systems integration. You should expect 12-18 months before marketplace economics are favorable. Do you have budget for this? Can your CFO tolerate margin pressure in the near term for long-term payoff?</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Marketplace transformation requires strategic conviction, organizational capability, and financial patience. If leadership isn't aligned on all three, reconsider your timeline.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>Marketplace transformation requires strategic conviction, organizational capability, and financial patience. If leadership isn't aligned on all three, reconsider your timeline.</p>
                 </div>
             </section>
 
@@ -218,8 +220,9 @@
                     <li><strong>Documentation and Training:</strong> Engineering provided detailed API docs, SDKs, and webhooks. They hosted seller training sessions on integrations.</li>
                 </ul>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Marketplace transformation requires a dedicated team with clear P&L ownership, structured cross-functional cadence, and collaborative mindset. Without this, you'll have internal conflicts that slow execution.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>Marketplace transformation requires a dedicated team with clear P&L ownership, structured cross-functional cadence, and collaborative mindset. Without this, you'll have internal conflicts that slow execution.</p>
                 </div>
             </section>
 
@@ -286,8 +289,9 @@
                 </ul>
                 <p>Don't chase all of these immediately. Build foundation (transaction fees + basic retail media), then expand based on seller and buyer feedback.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Retail media (seller advertising) transforms marketplace unit economics. It should be a pillar of your monetization strategy, not an afterthought. Plan for this from the beginning.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>Retail media (seller advertising) transforms marketplace unit economics. It should be a pillar of your monetization strategy, not an afterthought. Plan for this from the beginning.</p>
                 </div>
             </section>
 
@@ -332,69 +336,77 @@
             </section>
         </article>
 
-        <section class="faq-section">
-            <h2 id="faq">Frequently Asked Questions</h2>
-            <div class="faq-item">
-                <h3>How long does a typical catalogue-to-marketplace transformation take?</h3>
-                <p>End-to-end, 12-18 months. Platform selection and integration: 3-4 months. Initial seller onboarding: 2-3 months. Operational scaling and optimization: ongoing. Our Lasoo transformation to 60+ sellers and 120% MoM growth happened in 6 months, but this assumed an experienced team and willingness to move fast. A more conservative approach might extend to 12-18 months.</p>
-            </div>
-            <div class="faq-item">
-                <h3>What's the typical take-rate for marketplace sellers?</h3>
-                <p>It varies by category and seller tier. We used 10-15% for anchor tenants (to win them), 15-20% for growth-tier sellers, and 20-25% for SMB sellers (because they need more support and represent higher risk). Include payment processing fees (2-3%) when calculating true take-rate. Higher take-rates (30%+) are typical in Asia; lower rates (8-12%) in more competitive Western markets.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How do you handle inventory and fulfillment in a multi-seller marketplace?</h3>
-                <p>Sellers own and manage their inventory. You provide APIs and integrations so they can sync real-time inventory to your platform. For fulfillment, you can either let sellers handle it directly or offer marketplace-coordinated logistics (negotiated shipping with partners). We offered both: self-fulfilled (seller ships) and marketplace-fulfilled (we coordinate with logistics partners). Let buyers choose at checkout.</p>
-            </div>
-        </section>
+            <section class="faq">
+                <h2 id="faq">Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How long does a typical catalogue-to-marketplace transformation take?</h3>
+                    <p>End-to-end, 12-18 months. Platform selection and integration: 3-4 months. Initial seller onboarding: 2-3 months. Operational scaling and optimization: ongoing. Our Lasoo transformation to 60+ sellers and 120% MoM growth happened in 6 months, but this assumed an experienced team and willingness to move fast. A more conservative approach might extend to 12-18 months.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's the typical take-rate for marketplace sellers?</h3>
+                    <p>It varies by category and seller tier. We used 10-15% for anchor tenants (to win them), 15-20% for growth-tier sellers, and 20-25% for SMB sellers (because they need more support and represent higher risk). Include payment processing fees (2-3%) when calculating true take-rate. Higher take-rates (30%+) are typical in Asia; lower rates (8-12%) in more competitive Western markets.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do you handle inventory and fulfillment in a multi-seller marketplace?</h3>
+                    <p>Sellers own and manage their inventory. You provide APIs and integrations so they can sync real-time inventory to your platform. For fulfillment, you can either let sellers handle it directly or offer marketplace-coordinated logistics (negotiated shipping with partners). We offered both: self-fulfilled (seller ships) and marketplace-fulfilled (we coordinate with logistics partners). Let buyers choose at checkout.</p>
+                </div>
+            </section>
+        </article>
 
-        <section class="related-articles">
-            <h2>Related Articles</h2>
+        <aside class="related">
+            <h2>Related Reading</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3><a href="marketplace-seller-onboarding.html">Marketplace Seller Onboarding: Strategies That Scale</a></h3>
-                    <p>Deep dive into seller funnel optimization, data standards, and onboarding workflows that drive 3x conversion improvement.</p>
-                    <div class="card-meta">Marketplace Growth</div>
+                    <p class="card-label">Marketplace Growth</p>
+                    <h3 class="card-title"><a href="marketplace-seller-onboarding.html">Marketplace Seller Onboarding: Strategies That Scale</a></h3>
+                    <p class="card-desc">Deep dive into seller funnel optimization, data standards, and onboarding workflows that drive 3x conversion improvement.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale</a></h3>
-                    <p>How to balance multi-seller competition, optimize discoverability, and maintain category health across hundreds of sellers.</p>
-                    <div class="card-meta">Marketplace Strategy</div>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale</a></h3>
+                    <p class="card-desc">How to balance multi-seller competition, optimize discoverability, and maintain category health across hundreds of sellers.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="data-standards-marketplace-success.html">Data Standards: The Foundation of Marketplace Success</a></h3>
-                    <p>Why GS1-compliant product data matters, and how to enforce standards without alienating sellers.</p>
-                    <div class="card-meta">Marketplace Operations</div>
+                    <p class="card-label">Marketplace Operations</p>
+                    <h3 class="card-title"><a href="data-standards-marketplace-success.html">Data Standards: The Foundation of Marketplace Success</a></h3>
+                    <p class="card-desc">Why GS1-compliant product data matters, and how to enforce standards without alienating sellers.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Transform Your Catalogue Into a Marketplace?</h2>
-                <p>Building a marketplace is complex, but the strategic opportunity is enormous. Whether you're in early evaluation or deep in execution, let's discuss your specific challenges and opportunities.</p>
-                <a href="../contact.html" class="cta-button">Get in Touch</a>
-            </div>
-        </section>
+        </aside>
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-content">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="../about.html">About</a>
-                    <a href="../insights.html">Insights</a>
-                    <a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a>
-                    <a href="../contact.html">Contact</a>
-                </div>
-            </div>
+    <section class="cta">
+        <div class="wrap">
+            <h2>Ready to Transform Your Catalogue Into a Marketplace?</h2>
+            <p>Building a marketplace is complex, but the strategic opportunity is enormous. Whether you're in early evaluation or deep in execution, let's discuss your specific challenges and opportunities.</p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
+        </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
-        document.querySelector('.nav-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', function() {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
         });
     </script>
 </body>

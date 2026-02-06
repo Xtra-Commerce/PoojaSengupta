@@ -9,84 +9,58 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo">
-                <a href="../index.html">Pooja Sengupta</a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../marketplace-expertise.html">Marketplace Expertise</a></li>
-                <li><a href="../ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                <li><a href="../founder-journey.html">Founder Journey</a></li>
-                <li><a href="../insights.html">Insights</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link active">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Breadcrumbs -->
-    <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
-        <div class="container-narrow">
-            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="../index.html"><span itemprop="name">Home</span></a>
-                <meta itemprop="position" content="1">
-            </span>
-            <span> / </span>
-            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a itemprop="item" href="../insights.html"><span itemprop="name">Insights</span></a>
-                <meta itemprop="position" content="2">
-            </span>
-            <span> / </span>
-            <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Data Standards for Marketplace Success</span>
-                <meta itemprop="position" content="3">
-            </span>
+    <div class="breadcrumbs">
+        <div class="wrap">
+            <a href="../index.html">Home</a> <span>/</span> <a href="../insights.html">Insights</a> <span>/</span> <span>Data Standards: The Foundation of Marketplace Success</span>
         </div>
     </div>
 
-    <!-- Hero Section -->
-    <div class="pillar-hero">
-        <div class="container-narrow">
-            <h1>Why Data Standards Are the Foundation of Marketplace Success</h1>
-            <p class="hero-subtitle">How GS1 standards and structured data unlock competitive advantage across Amazon, Google, Alibaba, and beyond</p>
+    <section class="hero hero--narrow">
+        <div class="hero-text">
+            <span class="hero-label">Marketplace Operations</span>
+            <h1>Data Standards: The Foundation of Marketplace Success</h1>
+            <p class="hero-desc">Why product data quality matters, how to enforce GS1 standards across sellers, and systematic approaches to maintain data excellence as your marketplace scales from 10 to 1000+ sellers.</p>
             <div class="hero-meta">
-                <span>By <a href="https://linkedin.com/in/poojasengupta" target="_blank">Pooja Sengupta</a></span>
-                <span>Published: February 2026</span>
-                <span>Category: Data & Operations</span>
+                <span>By Pooja Sengupta</span>
+                <span>17 min read</span>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Main Content -->
-    <article class="article-content" itemscope itemtype="https://schema.org/Article">
-        <meta itemprop="headline" content="Why Data Standards Are the Foundation of Marketplace Success">
-        <meta itemprop="description" content="Discover why data standards are critical for marketplace success. Learn from hands-on experience standardizing data for 300+ brands across Amazon, Google, and Alibaba.">
-        <meta itemprop="author" content="Pooja Sengupta">
-        <meta itemprop="datePublished" content="2026-02-01">
-        <meta itemprop="dateModified" content="2026-02-01">
-        <meta itemprop="image" content="https://poojasengupta.com/images/data-standards.jpg">
+    <div class="wrap--narrow">
+        <nav class="toc">
+            <h3 class="toc-title">Table of Contents</h3>
+            <ol>
+                <li><a href="#hidden-cost">The Hidden Cost of Bad Data</a></li>
+                <li><a href="#gs1-standards">GS1 Standards: The Marketplace Foundation</a></li>
+                <li><a href="#amazon-google-alibaba">Working with Amazon, Google, and Alibaba</a></li>
+                <li><a href="#onboarding-brands">Onboarding 300+ Brands at Scale</a></li>
+                <li><a href="#cross-functional">Cross-Functional Alignment: Getting Everyone on Board</a></li>
+                <li><a href="#competitive-advantage">Data as Competitive Advantage</a></li>
+                <li><a href="#practical-implementation">Practical Implementation Roadmap</a></li>
+            </ol>
+        </nav>
 
-        <div class="container-narrow">
-            <!-- Table of Contents -->
-            <div class="toc">
-                <h2>Table of Contents</h2>
-                <ul>
-                    <li><a href="#hidden-cost">The Hidden Cost of Bad Data</a></li>
-                    <li><a href="#gs1-standards">GS1 Standards: The Marketplace Foundation</a></li>
-                    <li><a href="#amazon-google-alibaba">Working with Amazon, Google, and Alibaba</a></li>
-                    <li><a href="#onboarding-brands">Onboarding 300+ Brands at Scale</a></li>
-                    <li><a href="#cross-functional">Cross-Functional Alignment: Getting Everyone on Board</a></li>
-                    <li><a href="#competitive-advantage">Data as Competitive Advantage</a></li>
-                    <li><a href="#practical-implementation">Practical Implementation Roadmap</a></li>
-                </ul>
-            </div>
-
-            <!-- Article Body -->
-            <h2 id="hidden-cost">The Hidden Cost of Bad Data</h2>
+        <article class="prose">
+            <section id="hidden-cost">
+                <h2>The Hidden Cost of Bad Data</h2>
             <p>Imagine launching your marketplace with millions of products. Titles are inconsistent—some say "100% Pure Organic Coffee," others say "coffee organic 100% pure." Descriptions vary wildly. Images are inconsistent sizes. Attributes are missing. One week in, your search algorithm struggles. Customers can't find what they're looking for. Your conversion rate plummets.</p>
 
             <p>This isn't hypothetical. This is the reality for most marketplaces operating without data standards.</p>
@@ -286,73 +260,62 @@
         </div>
     </section>
 
-    <!-- Related Articles -->
-    <section class="related-articles">
-        <div class="container-narrow">
-            <h2>Related Articles</h2>
+        </article>
+
+        <aside class="related">
+            <h2>Related Reading</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3><a href="marketplace-seller-onboarding.html">Scaling Marketplace Seller Onboarding: From 10 to 1,000+ Sellers</a></h3>
-                    <p class="card-meta">Learn how to build scalable onboarding systems that empower sellers and accelerate marketplace growth.</p>
+                    <p class="card-label">Marketplace Growth</p>
+                    <h3 class="card-title"><a href="marketplace-seller-onboarding.html">Scaling Marketplace Seller Onboarding: From 10 to 1,000+ Sellers</a></h3>
+                    <p class="card-desc">Learn how to build scalable onboarding systems that empower sellers and accelerate marketplace growth.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="transform-catalogue-to-marketplace.html">Transforming a Product Catalog into a Marketplace: Strategy and Execution</a></h3>
-                    <p class="card-meta">Explore how to evolve from a single-seller catalog model to a multi-vendor marketplace platform.</p>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="transform-catalogue-to-marketplace.html">Transforming a Product Catalog into a Marketplace: Strategy and Execution</a></h3>
+                    <p class="card-desc">Explore how to evolve from a single-seller catalog model to a multi-vendor marketplace platform.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale: Managing Billions in Online Retail</a></h3>
-                    <p class="card-meta">Discover how to manage product selection, positioning, and promotions across 800+ storefronts and multiple platforms.</p>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale: Managing Billions in Online Retail</a></h3>
+                    <p class="card-desc">Discover how to manage product selection, positioning, and promotions across 800+ storefronts and multiple platforms.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </aside>
+    </div>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container-narrow">
+    <section class="cta">
+        <div class="wrap">
             <h2>Ready to Transform Your Marketplace with Data Standards?</h2>
             <p>Whether you're launching a new marketplace or improving an existing one, robust data standards are foundational. Let's discuss how to build a data strategy that drives growth.</p>
-            <p><a href="../contact.html" class="cta-button">Get in Touch</a></p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container-narrow">
-            <div class="footer-links">
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../marketplace-expertise.html">Marketplace Expertise</a></li>
-                        <li><a href="../ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                        <li><a href="../founder-journey.html">Founder Journey</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>More</h4>
-                    <ul>
-                        <li><a href="../insights.html">Insights</a></li>
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
                         <li><a href="../about.html">About</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                        <li><a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-            </div>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const navToggle = document.querySelector('.nav-toggle');
-            const navLinks = document.querySelector('.nav-links');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
 
-            navToggle.addEventListener('click', function() {
-                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-            });
+        navToggle.addEventListener('click', function() {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
         });
     </script>
 </body>

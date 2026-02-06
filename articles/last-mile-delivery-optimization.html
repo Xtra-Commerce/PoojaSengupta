@@ -10,27 +10,26 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo">
-                <a href="../index.html">Pooja Sengupta</a>
-            </div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../marketplace-expertise.html">Marketplace Expertise</a></li>
-                <li><a href="../ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                <li><a href="../founder-journey.html">Founder Journey</a></li>
-                <li><a href="../insights.html">Insights</a></li>
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
-        <div class="container-narrow">
+        <div class="wrap">
             <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a itemprop="item" href="../index.html"><span itemprop="name">Home</span></a>
                 <meta itemprop="position" content="1">
@@ -49,20 +48,20 @@
     </div>
 
     <!-- Hero Section -->
-    <div class="pillar-hero">
-        <div class="container-narrow">
+    <section class="hero hero--narrow">
+        <div class="wrap">
             <h1>Last-Mile Delivery Optimisation in Grocery Ecommerce</h1>
-            <p class="hero-subtitle">How to reduce delivery times, optimize costs, and scale across hundreds of storefronts through strategic partnerships and operational excellence</p>
+            <p class="hero-desc">How to reduce delivery times, optimize costs, and scale across hundreds of storefronts through strategic partnerships and operational excellence</p>
             <div class="hero-meta">
                 <span>By <a href="https://linkedin.com/in/poojasengupta" target="_blank">Pooja Sengupta</a></span>
                 <span>Published: February 2026</span>
                 <span>Category: Logistics & Operations</span>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Main Content -->
-    <article class="article-content" itemscope itemtype="https://schema.org/Article">
+    <article class="prose" itemscope itemtype="https://schema.org/Article">
         <meta itemprop="headline" content="Last-Mile Delivery Optimisation in Grocery Ecommerce">
         <meta itemprop="description" content="Master last-mile delivery optimization in grocery ecommerce. Learn how Coles reduced delivery times by 35% through strategic partnerships and operational excellence.">
         <meta itemprop="author" content="Pooja Sengupta">
@@ -70,11 +69,11 @@
         <meta itemprop="dateModified" content="2026-02-01">
         <meta itemprop="image" content="https://poojasengupta.com/images/delivery-optimization.jpg">
 
-        <div class="container-narrow">
+        <div class="wrap">
             <!-- Table of Contents -->
             <div class="toc">
-                <h2>Table of Contents</h2>
-                <ul>
+                <h3 class="toc-title">Table of Contents</h3>
+                <ol>
                     <li><a href="#the-challenge">The Last-Mile Grocery Challenge</a></li>
                     <li><a href="#partnerships-vs-inhouse">Partnerships vs In-House: Making the Strategic Choice</a></li>
                     <li><a href="#selecting-partners">Selecting Delivery Partners: Criteria and Trade-offs</a></li>
@@ -82,7 +81,7 @@
                     <li><a href="#dark-store-operations">Dark Store Operations and Merchandising</a></li>
                     <li><a href="#cross-functional-coordination">Cross-Functional Coordination: Online + Store Teams</a></li>
                     <li><a href="#scaling-800-storefronts">Scaling Across 800+ Storefronts</a></li>
-                </ul>
+                </ol>
             </div>
 
             <!-- Article Body -->
@@ -99,25 +98,25 @@
             <p>The first decision: should we build our own delivery fleet or partner with existing delivery services?</p>
 
             <p>The case for in-house:</p>
-            <ul>
+            <ol>
                 <li>Complete control over customer experience and delivery timing</li>
                 <li>Long-term scalability and no dependency on external partners</li>
                 <li>Better margins (eventually) as you optimize operations</li>
                 <li>Brand control—your team, your vehicles, your service standards</li>
-            </ul>
+            </ol>
 
             <p>The case against in-house:</p>
-            <ul>
+            <ol>
                 <li>Massive capital investment (vehicles, warehouses, workforce infrastructure)</li>
                 <li>Significant operational complexity (staffing, vehicle maintenance, fuel, routing)</li>
                 <li>Limited flexibility during demand spikes or geographic expansion</li>
                 <li>Retail experience, not logistics expertise—we'd be starting from scratch</li>
                 <li>Long time to profitability; you're burning cash for years</li>
-            </ul>
+            </ol>
 
             <p>We chose a hybrid model: we didn't build a full delivery fleet, but we didn't entirely outsource either. Instead, we developed strategic partnerships with specialized delivery providers—each bringing different strengths.</p>
 
-            <div class="key-takeaway">
+            <div class="callout"><h4 class="callout-title">Key Takeaway</h4><p>
                 <strong>Key Takeaway:</strong> For most retailers, the hybrid model wins. Partner with specialists who do delivery at scale, but retain strategic control over customer experience and geography. This balances speed, cost, and scalability.
             </div>
 
@@ -134,7 +133,7 @@
 
             <p><strong>Evaluation Criteria:</strong> When selecting delivery partners, consider:</p>
 
-            <ul>
+            <ol>
                 <li><strong>Geographic Coverage:</strong> Do they serve your current markets? Your future markets?</li>
                 <li><strong>Speed Capability:</strong> Can they achieve your target delivery windows?</li>
                 <li><strong>Temperature Control:</strong> For perishables, this is non-negotiable. Can they maintain cold chain?</li>
@@ -144,7 +143,7 @@
                 <li><strong>Reliability:</strong> What's their on-time delivery rate? Their cancellation rate? Their customer satisfaction score?</li>
                 <li><strong>Scalability:</strong> Can they grow with you? Can they handle 10x volume growth?</li>
                 <li><strong>Integration:</strong> How easily do they integrate with your systems (order management, customer communication)?</li>
-            </ul>
+            </ol>
 
             <p>We created a scorecard for each provider and reviewed quarterly. Partners that consistently underperformed on reliability or customer satisfaction were either improved or replaced. This discipline ensured we maintained high service standards.</p>
 
@@ -164,12 +163,12 @@
             <p><strong>Optimization #3: Routing and Geolocation</strong></p>
             <p>With multiple delivery partners, we needed intelligent routing. When an order came in, we'd assess:</p>
 
-            <ul>
+            <ol>
                 <li>Delivery location (urban core, suburban, rural)</li>
                 <li>Order weight and product requirements (cold, fragile, standard)</li>
                 <li>Real-time availability of delivery partners</li>
                 <li>Customer delivery window preferences</li>
-            </ul>
+            </ol>
 
             <p>We'd then automatically route to the delivery partner best suited for that order. This maximization problem required data science and logistics optimization, but the payoff was significant: faster delivery, lower cost, and better partner utilization.</p>
 
@@ -178,7 +177,7 @@
 
             <p><strong>The Result:</strong> 35% delivery time reduction. We moved from an industry-standard 2-hour delivery window to a 45-minute window as default in major cities, with same-day delivery available on-demand. Customer satisfaction with delivery improved from 76% to 89%.</p>
 
-            <div class="key-takeaway">
+            <div class="callout"><h4 class="callout-title">Key Takeaway</h4><p>
                 <strong>Key Takeaway:</strong> Faster delivery isn't just about partnering with fast couriers. It requires dark stores (or optimized fulfillment), demand forecasting, intelligent routing, and order consolidation. Each optimization compounds.
             </div>
 
@@ -204,7 +203,7 @@
 
             <p>I led a cross-functional team of 20+ people (including Accenture offshore partners) to manage this tension. The team included:</p>
 
-            <ul>
+            <ol>
                 <li><strong>Store Operations:</strong> Managing fulfillment from retail locations, coordinating with store managers</li>
                 <li><strong>Dark Store Operations:</strong> Managing dedicated fulfillment centers</li>
                 <li><strong>Logistics and Delivery:</strong> Partner management, routing, delivery performance</li>
@@ -212,7 +211,7 @@
                 <li><strong>Merchandising:</strong> Range selection, inventory depth, replenishment strategies</li>
                 <li><strong>Supply Chain and Planning:</strong> Demand forecasting, inventory management, stock allocation</li>
                 <li><strong>Customer Service:</strong> Managing delivery issues, returns, refunds</li>
-            </ul>
+            </ol>
 
             <p><strong>Weekly Operations Meetings:</strong> We held weekly syncs where all functions reviewed metrics and issues. Store teams would surface inventory conflicts (online orders exhausting in-store stock). Logistics would surface delivery partner issues. Merchandising would propose range changes. IT would raise system constraints. We'd collectively solve problems rather than allowing functions to work in silos.</p>
 
@@ -222,12 +221,12 @@
 
             <p><strong>Technology as Coordinator:</strong> Ultimately, coordinating 20+ people across functions at scale requires automation. We implemented:</p>
 
-            <ul>
+            <ol>
                 <li>Automated demand forecasting that predicted daily demand by store, by category</li>
                 <li>Inventory allocation systems that automatically reserved inventory for online or store based on rules and forecasts</li>
                 <li>Exception management dashboards that flagged conflicts or issues early</li>
                 <li>Automated replenishment that coordinated dark stores, retail stores, and suppliers</li>
-            </ul>
+            </ol>
 
             <p>Technology didn't replace the cross-functional team—it enabled them to focus on strategic decisions rather than manual coordination.</p>
 
@@ -261,8 +260,8 @@
     </article>
 
     <!-- FAQ Section -->
-    <section class="faq-section" itemscope itemtype="https://schema.org/FAQPage">
-        <div class="container-narrow">
+    <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="wrap">
             <h2>Frequently Asked Questions</h2>
 
             <div class="faq-item" itemscope itemtype="https://schema.org/Question">
@@ -289,8 +288,8 @@
     </section>
 
     <!-- Related Articles -->
-    <section class="related-articles">
-        <div class="container-narrow">
+    <section class="related">
+        <div class="wrap">
             <h2>Related Articles</h2>
             <div class="card-grid">
                 <div class="card">
@@ -310,50 +309,44 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container-narrow">
+    <section class="cta">
+        <div class="wrap">
             <h2>Transform Your Delivery Operations</h2>
             <p>Whether you're launching grocery delivery or optimizing an existing network, last-mile delivery excellence drives customer satisfaction and profitability. Let's discuss your specific challenges.</p>
-            <p><a href="../contact.html" class="cta-button">Get in Touch</a></p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="site-footer">
-        <div class="container-narrow">
-            <div class="footer-links">
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../marketplace-expertise.html">Marketplace Expertise</a></li>
-                        <li><a href="../ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                        <li><a href="../founder-journey.html">Founder Journey</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>More</h4>
-                    <ul>
-                        <li><a href="../insights.html">Insights</a></li>
-                        <li><a href="../about.html">About</a></li>
-                        <li><a href="../contact.html">Contact</a></li>
-                        <li><a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-            </div>
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const navToggle = document.querySelector('.nav-toggle');
-            const navLinks = document.querySelector('.nav-links');
-
-            navToggle.addEventListener('click', function() {
-                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            var toggle = document.getElementById('navToggle');
+            var menu = document.getElementById('navMenu');
+            toggle.addEventListener('click', function() {
+                var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', !isExpanded);
+                menu.classList.toggle('active');
+            });
+            menu.querySelectorAll('.nav-link').forEach(function(link) {
+                link.addEventListener('click', function() {
+                    toggle.setAttribute('aria-expanded', 'false');
+                    menu.classList.remove('active');
+                });
             });
         });
     </script>

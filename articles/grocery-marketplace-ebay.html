@@ -38,44 +38,45 @@
     </script>
 </head>
 <body>
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo"><a href="../index.html">Pooja Sengupta</a></div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
-                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
-                <a href="../founder-journey.html">Founder Journey</a>
-                <a href="../insights.html">Insights</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-            </div>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link active">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
         </div>
     </nav>
 
     <div class="breadcrumbs">
-        <div class="container-narrow">
-            <a href="../index.html">Home</a> / <a href="../insights.html">Insights</a> / Grocery Marketplace on eBay
+        <div class="wrap">
+            <a href="../index.html">Home</a> <span>/</span> <a href="../insights.html">Insights</a> <span>/</span> <span>Launching the World's First Grocery Marketplace on eBay: The Coles Partnership</span>
         </div>
     </div>
 
-    <header class="pillar-hero">
-        <div class="container-narrow">
-            <span class="category-label">Case Study</span>
+    <section class="hero hero--narrow">
+        <div class="hero-text">
+            <span class="hero-label">Case Study</span>
             <h1>Launching the World's First Grocery Marketplace on eBay: The Coles Partnership</h1>
-            <p class="hero-subtitle">A deep dive into executing a multimillion-dollar partnership between Australia's largest supermarket chain and eBay, establishing the world's first grocery marketplace on the platform through cross-functional excellence, dark store operations, and innovative delivery logistics.</p>
-            <div class="article-meta">
-                <span class="author">By Pooja Sengupta</span>
-                <span class="read-time">20 min read</span>
+            <p class="hero-desc">A deep dive into executing a multimillion-dollar partnership between Australia's largest supermarket chain and eBay, establishing the world's first grocery marketplace on the platform through cross-functional excellence, dark store operations, and innovative delivery logistics.</p>
+            <div class="hero-meta">
+                <span>By Pooja Sengupta</span>
+                <span>20 min read</span>
             </div>
         </div>
-    </header>
+    </section>
 
-    <div class="container-narrow">
+    <div class="wrap--narrow">
         <nav class="toc">
-            <h3>Table of Contents</h3>
-            <ul>
+            <h3 class="toc-title">Table of Contents</h3>
+            <ol>
                 <li><a href="#grocery-marketplace-need">Why Grocery Needed a Marketplace Model</a></li>
                 <li><a href="#strategic-case">The Strategic Case for eBay</a></li>
                 <li><a href="#partnership-negotiation">Partnership Negotiation and Alignment</a></li>
@@ -86,10 +87,10 @@
                 <li><a href="#technical-integration">Technical Integration and Data Flows</a></li>
                 <li><a href="#results">Results and Key Learnings</a></li>
                 <li><a href="#faq">FAQs</a></li>
-            </ul>
+            </ol>
         </nav>
 
-        <article class="article-content">
+        <article class="prose">
             <section id="grocery-marketplace-need">
                 <h2>Why Grocery Needed a Marketplace Model</h2>
                 <p>In 2015, online grocery was nascent. Coles, Australia's largest supermarket chain with 800+ physical stores, faced a strategic challenge: how to compete with Amazon Fresh and emerging online-only grocery players without the capital investment and complexity of building a dedicated ecommerce platform and fulfillment infrastructure.</p>
@@ -124,8 +125,9 @@
                 <h3>Avoiding the Amazon Trap</h3>
                 <p>Coles considered partnering with Amazon. Amazon Fresh existed, but it was still growing and not yet dominant in Australia. However, partnering with Amazon meant playing by Amazon's rules: high take-rates, loss of direct customer relationship, and dependency on Amazon's roadmap. By choosing eBay, Coles retained more strategic autonomy and could shape the platform's grocery evolution.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> When evaluating marketplace partnerships, assess not just current reach, but strategic alignment, co-investment willingness, and autonomy over your business model.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>When evaluating marketplace partnerships, assess not just current reach, but strategic alignment, co-investment willingness, and autonomy over your business model.</p>
                 </div>
             </section>
 
@@ -228,8 +230,9 @@
                 </ul>
                 <p>We tracked these metrics per store and per delivery partner. Stores that underperformed got additional training and support. Delivery partners that failed freshness standards were remediated or replaced.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Phased rollout with clear quality standards beats big-bang launches. You learn, you adapt, you scale systematically rather than launching broken and fixing at scale.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>Phased rollout with clear quality standards beats big-bang launches. You learn, you adapt, you scale systematically rather than launching broken and fixing at scale.</p>
                 </div>
             </section>
 
@@ -314,8 +317,9 @@
                     <li><strong>Speed:</strong> Minimize time between fulfillment and customer delivery. The faster the delivery, the less cold chain management matters.</li>
                 </ul>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Multi-partner delivery beats proprietary infrastructure for startup/scale phase. Partnership, batching, and cold chain focus drive unit economics and customer satisfaction simultaneously.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p>Multi-partner delivery beats proprietary infrastructure for startup/scale phase. Partnership, batching, and cold chain focus drive unit economics and customer satisfaction simultaneously.</p>
                 </div>
             </section>
 
@@ -403,69 +407,77 @@
             </section>
         </article>
 
-        <section class="faq-section">
-            <h2 id="faq">Frequently Asked Questions</h2>
-            <div class="faq-item">
-                <h3>Why did Coles choose eBay over building proprietary infrastructure?</h3>
-                <p>Speed, cost, and focus. Building proprietary marketplace infrastructure would have taken 18-24 months. eBay had platform, technology, and 100+ million buyers ready to go. Partnership accelerated time-to-market by 12 months. Coles could focus on execution (stores, dark stores, logistics) rather than building platform technology.</p>
-            </div>
-            <div class="faq-item">
-                <h3>What's the difference between a dark store and a consumer-facing store for ecommerce fulfillment?</h3>
-                <p>Dark stores are dedicated fulfillment facilities without consumer-facing retail. Key differences: layout optimized for picking (not browsing), no customer traffic interference, higher labor efficiency (40-50%), ability to specialize inventory for ecommerce demand, and higher throughput per staff member. Consumer-facing stores are more efficient per square foot (dual use: retail + ecommerce) but less efficient for pure ecommerce fulfillment.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How did you ensure cold chain integrity during delivery?</h3>
-                <p>Multi-layered approach: cold storage at fulfillment facilities, insulated boxes and ice packs during packing, temperature-controlled vehicles for longer routes, and emphasis on speed (minimize time between fulfillment and delivery). For UberEATS, short urban routes (30-60 min) meant cold chain was maintained without complex infrastructure. For longer routes (2+ hours), refrigerated vehicles were used. Continuous monitoring of delivery partner performance on freshness metrics.</p>
-            </div>
-        </section>
+            <section class="faq">
+                <h2 id="faq">Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Why did Coles choose eBay over building proprietary infrastructure?</h3>
+                    <p>Speed, cost, and focus. Building proprietary marketplace infrastructure would have taken 18-24 months. eBay had platform, technology, and 100+ million buyers ready to go. Partnership accelerated time-to-market by 12 months. Coles could focus on execution (stores, dark stores, logistics) rather than building platform technology.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's the difference between a dark store and a consumer-facing store for ecommerce fulfillment?</h3>
+                    <p>Dark stores are dedicated fulfillment facilities without consumer-facing retail. Key differences: layout optimized for picking (not browsing), no customer traffic interference, higher labor efficiency (40-50%), ability to specialize inventory for ecommerce demand, and higher throughput per staff member. Consumer-facing stores are more efficient per square foot (dual use: retail + ecommerce) but less efficient for pure ecommerce fulfillment.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How did you ensure cold chain integrity during delivery?</h3>
+                    <p>Multi-layered approach: cold storage at fulfillment facilities, insulated boxes and ice packs during packing, temperature-controlled vehicles for longer routes, and emphasis on speed (minimize time between fulfillment and delivery). For UberEATS, short urban routes (30-60 min) meant cold chain was maintained without complex infrastructure. For longer routes (2+ hours), refrigerated vehicles were used. Continuous monitoring of delivery partner performance on freshness metrics.</p>
+                </div>
+            </section>
+        </article>
 
-        <section class="related-articles">
-            <h2>Related Articles</h2>
+        <aside class="related">
+            <h2>Related Reading</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3><a href="last-mile-delivery-optimization.html">Last-Mile Delivery Optimization: Economics and Strategy</a></h3>
-                    <p>Deep dive into last-mile delivery unit economics, multi-partner strategies, and optimization tactics for ecommerce logistics.</p>
-                    <div class="card-meta">Ecommerce Operations</div>
+                    <p class="card-label">Ecommerce Operations</p>
+                    <h3 class="card-title"><a href="last-mile-delivery-optimization.html">Last-Mile Delivery Optimization: Economics and Strategy</a></h3>
+                    <p class="card-desc">Deep dive into last-mile delivery unit economics, multi-partner strategies, and optimization tactics for ecommerce logistics.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale</a></h3>
-                    <p>How to balance multi-seller competition, optimize discoverability, and maintain category health across hundreds of sellers and dark stores.</p>
-                    <div class="card-meta">Marketplace Strategy</div>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="marketplace-merchandising-at-scale.html">Marketplace Merchandising at Scale</a></h3>
+                    <p class="card-desc">How to balance multi-seller competition, optimize discoverability, and maintain category health across hundreds of sellers and dark stores.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
-                    <p>Strategic and tactical approaches to marketplace transformation, with insights from Lasoo's journey to 60+ retailers and 120% MoM growth.</p>
-                    <div class="card-meta">Marketplace Strategy</div>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
+                    <p class="card-desc">Strategic and tactical approaches to marketplace transformation, with insights from Lasoo's journey to 60+ retailers and 120% MoM growth.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Build Your Grocery or Retail Marketplace?</h2>
-                <p>Whether you're a retailer exploring marketplace models, a logistics company optimizing last-mile, or a platform evaluating new categories, let's discuss your specific challenges and opportunities.</p>
-                <a href="../contact.html" class="cta-button">Get in Touch</a>
-            </div>
-        </section>
+        </aside>
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-content">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="../about.html">About</a>
-                    <a href="../insights.html">Insights</a>
-                    <a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a>
-                    <a href="../contact.html">Contact</a>
-                </div>
-            </div>
+    <section class="cta">
+        <div class="wrap">
+            <h2>Ready to Build Your Grocery or Retail Marketplace?</h2>
+            <p>Whether you're a retailer exploring marketplace models, a logistics company optimizing last-mile, or a platform evaluating new categories, let's discuss your specific challenges and opportunities.</p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
+        </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
-        document.querySelector('.nav-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', function() {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
         });
     </script>
 </body>

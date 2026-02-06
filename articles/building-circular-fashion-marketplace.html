@@ -38,44 +38,45 @@
     </script>
 </head>
 <body>
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo"><a href="../index.html">Pooja Sengupta</a></div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
-                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
-                <a href="../founder-journey.html">Founder Journey</a>
-                <a href="../insights.html">Insights</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-            </div>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link active">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
         </div>
     </nav>
 
     <div class="breadcrumbs">
-        <div class="container-narrow">
-            <a href="../index.html">Home</a> / <a href="../insights.html">Insights</a> / Building Circular Fashion Marketplace
+        <div class="wrap">
+            <a href="../index.html">Home</a> <span>/</span> <a href="../insights.html">Insights</a> <span>/</span> <span>Building a Circular Fashion Marketplace from Scratch</span>
         </div>
     </div>
 
-    <header class="pillar-hero">
-        <div class="container-narrow">
-            <span class="category-label">Founder Insights</span>
+    <section class="hero hero--narrow">
+        <div class="hero-text">
+            <span class="hero-label">Founder Insights</span>
             <h1>Building a Circular Fashion Marketplace from Scratch</h1>
-            <p class="hero-subtitle">The journey of launching PurvX, a circular marketplace for South Asian fashion. From idea validation in San Francisco and Chennai to 800% organic user growth in 6 months, 3.2x seller conversion, and sustainable profitability.</p>
-            <div class="article-meta">
-                <span class="author">By Pooja Sengupta</span>
-                <span class="read-time">21 min read</span>
+            <p class="hero-desc">The journey of launching PurvX, a circular marketplace for South Asian fashion. From idea validation in San Francisco and Chennai to 800% organic user growth in 6 months, 3.2x seller conversion, and sustainable profitability.</p>
+            <div class="hero-meta">
+                <span>By Pooja Sengupta</span>
+                <span>21 min read</span>
             </div>
         </div>
-    </header>
+    </section>
 
-    <div class="container-narrow">
+    <div class="wrap--narrow">
         <nav class="toc">
-            <h3>Table of Contents</h3>
-            <ul>
+            <h3 class="toc-title">Table of Contents</h3>
+            <ol>
                 <li><a href="#case-for-circular">The Case for Circular Fashion</a></li>
                 <li><a href="#identifying-niche">Identifying the Niche: South Asian Diaspora</a></li>
                 <li><a href="#from-dropped-pin">The Arc: From Dropped Pin to PurvX</a></li>
@@ -86,10 +87,10 @@
                 <li><a href="#bootstrapping-discipline">Bootstrapping Discipline: How to Build Without Venture Capital</a></li>
                 <li><a href="#lessons-learned">Lessons Learned</a></li>
                 <li><a href="#faq">FAQs</a></li>
-            </ul>
+            </ol>
         </nav>
 
-        <article class="article-content">
+        <article class="prose">
             <section id="case-for-circular">
                 <h2>The Case for Circular Fashion</h2>
                 <p>The fashion industry is broken. Fast fashion dominates, driving overproduction and waste. Consumers buy cheap, wear items 1-2 times, then discard. Landfills overflow with textile waste. Brands manufacture far from customers, creating supply chain opacity and labor exploitation.</p>
@@ -110,8 +111,10 @@
                 </ul>
                 <p>By month 5, I was convinced. Left corporate job. Launched properly.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Validation doesn't require large survey or fancy research. Interviews, pilots, and manual execution reveal truth. I spent $0 on validation; 5 months of evenings and weekends. The insight was worth far more than capital.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Validation doesn't require large survey or fancy research. Interviews, pilots, and manual execution reveal truth. I spent $0 on validation; 5 months of evenings and weekends. The insight was worth far more than capital.
+                </p>
                 </div>
             </section>
 
@@ -219,8 +222,10 @@
                 <p>We had no budget, so this was forced frugality. But it became a feature, not a bug. Organic growth forced us to build a great product. Paid ads mask product problems; organic growth only happens when product is genuinely good. We had to earn every user.</p>
                 <p>By Month 6, when we could have afforded some marketing spend, CAC was irrelevant. Organic LTV was so high we didn't need ads. This changed later, but organic foundation was invaluable.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Bootstrapped founders should view lack of budget as forced discipline. Build product so good people want to use and invite friends. This is harder but creates sustainable growth.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Bootstrapped founders should view lack of budget as forced discipline. Build product so good people want to use and invite friends. This is harder but creates sustainable growth.
+                </p>
                 </div>
             </section>
 
@@ -331,8 +336,10 @@
                 <p>My decision: No. At least not yet. Why? Because we were profitable and independent. Raising would force pressure to grow at all costs. But product was strong; users loved it; sellers were successful. Why risk that with pressure to scale faster than sustainable?</p>
                 <p>I'm open to raising later (to expand geographically, to accelerate hiring). But bootstrap first was the right call. It forced the right prioritization.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Bootstrapping forces discipline that VC funding masks. Avoid it if possible. If you need capital, be clear about why and what it unlocks. Growing profitable is harder than growing fast. Profitable is more sustainable.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Bootstrapping forces discipline that VC funding masks. Avoid it if possible. If you need capital, be clear about why and what it unlocks. Growing profitable is harder than growing fast. Profitable is more sustainable.
+                </p>
                 </div>
             </section>
 
@@ -371,69 +378,77 @@
             </section>
         </article>
 
-        <section class="faq-section">
-            <h2 id="faq">Frequently Asked Questions</h2>
-            <div class="faq-item">
-                <h3>Is bootstrapping viable for marketplaces?</h3>
-                <p>Yes, if (1) niche is defensible and has clear TAM, (2) network effects exist (sellers attract buyers, buyers attract sellers), and (3) unit economics work early. Global eBay took capital. But small-niche marketplaces (regional, category-specific) can bootstrap profitably. PurvX proves this.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How do you compete with large platforms like Poshmark?</h3>
-                <p>Be best-in-niche. Don't try to beat them overall. Poshmark is best for mainstream fashion. PurvX is best for South Asian fashion. Niche focus means: better discovery for category, better community, better seller tools tailored to category. This creates defensible moat.</p>
-            </div>
-            <div class="faq-item">
-                <h3>What's the biggest challenge in building a circular/secondhand marketplace?</h3>
-                <p>Quality and trust. Secondhand carries higher perceived risk (condition, authenticity, returns). You have to make trust visible and easy: multiple photos, detailed condition, seller ratings, money-back guarantee. Trust infrastructure is the bottleneck, not technology.</p>
-            </div>
-        </section>
+            <section class="faq">
+                <h2 id="faq">Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>Is bootstrapping viable for marketplaces?</h3>
+                    <p>Yes, if (1) niche is defensible and has clear TAM, (2) network effects exist (sellers attract buyers, buyers attract sellers), and (3) unit economics work early. Global eBay took capital. But small-niche marketplaces (regional, category-specific) can bootstrap profitably. PurvX proves this.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do you compete with large platforms like Poshmark?</h3>
+                    <p>Be best-in-niche. Don't try to beat them overall. Poshmark is best for mainstream fashion. PurvX is best for South Asian fashion. Niche focus means: better discovery for category, better community, better seller tools tailored to category. This creates defensible moat.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's the biggest challenge in building a circular/secondhand marketplace?</h3>
+                    <p>Quality and trust. Secondhand carries higher perceived risk (condition, authenticity, returns). You have to make trust visible and easy: multiple photos, detailed condition, seller ratings, money-back guarantee. Trust infrastructure is the bottleneck, not technology.</p>
+                </div>
+            </section>
+        </article>
 
-        <section class="related-articles">
-            <h2>Related Articles</h2>
+        <aside class="related">
+            <h2>Related Reading</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3><a href="marketplace-seller-onboarding.html">Marketplace Seller Onboarding: Strategies That Scale</a></h3>
-                    <p>Deep dive into seller onboarding funnels that drive conversion. Applicable to any marketplace including circular fashion.</p>
-                    <div class="card-meta">Marketplace Growth</div>
+                    <p class="card-label">Marketplace Growth</p>
+                    <h3 class="card-title"><a href="marketplace-seller-onboarding.html">Marketplace Seller Onboarding: Strategies That Scale</a></h3>
+                    <p class="card-desc">Deep dive into seller onboarding funnels that drive conversion. Applicable to any marketplace including circular fashion.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
-                    <p>Strategic framework for marketplace transformation, with emphasis on organizational execution and monetization.</p>
-                    <div class="card-meta">Marketplace Strategy</div>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
+                    <p class="card-desc">Strategic framework for marketplace transformation, with emphasis on organizational execution and monetization.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="cross-border-marketplace-expansion.html">Cross-Border Marketplace Expansion: San Francisco to India</a></h3>
-                    <p>Managing geographic expansion, timezone coordination, and local partnerships for global marketplaces.</p>
-                    <div class="card-meta">Marketplace Operations</div>
+                    <p class="card-label">Marketplace Operations</p>
+                    <h3 class="card-title"><a href="cross-border-marketplace-expansion.html">Cross-Border Marketplace Expansion: San Francisco to India</a></h3>
+                    <p class="card-desc">Managing geographic expansion, timezone coordination, and local partnerships for global marketplaces.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Building a Niche Marketplace? Let's Talk</h2>
-                <p>Whether you're validating a marketplace idea, building seller infrastructure, or scaling operations, I'd love to share insights and help with your specific challenges.</p>
-                <a href="../contact.html" class="cta-button">Get in Touch</a>
-            </div>
-        </section>
+        </aside>
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-content">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="../about.html">About</a>
-                    <a href="../insights.html">Insights</a>
-                    <a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a>
-                    <a href="../contact.html">Contact</a>
-                </div>
-            </div>
+    <section class="cta">
+        <div class="wrap">
+            <h2>Building a Niche Marketplace? Let's Talk</h2>
+            <p>Whether you're validating a marketplace idea, building seller infrastructure, or scaling operations, I'd love to share insights and help with your specific challenges.</p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
+        </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
-        document.querySelector('.nav-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', function() {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
         });
     </script>
 </body>

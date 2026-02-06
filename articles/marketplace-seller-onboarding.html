@@ -38,44 +38,45 @@
     </script>
 </head>
 <body>
-    <nav class="site-nav">
-        <div class="nav-inner">
-            <div class="nav-logo"><a href="../index.html">Pooja Sengupta</a></div>
-            <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-            <div class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
-                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
-                <a href="../founder-journey.html">Founder Journey</a>
-                <a href="../insights.html">Insights</a>
-                <a href="../about.html">About</a>
-                <a href="../contact.html">Contact</a>
-            </div>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="../index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="../ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="../founder-journey.html" class="nav-link">Founder Journey</a></li>
+                <li><a href="../insights.html" class="nav-link active">Insights</a></li>
+                <li><a href="../about.html" class="nav-link">About</a></li>
+            </ul>
         </div>
     </nav>
 
     <div class="breadcrumbs">
-        <div class="container-narrow">
-            <a href="../index.html">Home</a> / <a href="../insights.html">Insights</a> / Seller Onboarding
+        <div class="wrap">
+            <a href="../index.html">Home</a> <span>/</span> <a href="../insights.html">Insights</a> <span>/</span> <span>Marketplace Seller Onboarding: Strategies That Scale</span>
         </div>
     </div>
 
-    <header class="pillar-hero">
-        <div class="container-narrow">
-            <span class="category-label">Growth</span>
+    <section class="hero hero--narrow">
+        <div class="hero-text">
+            <span class="hero-label">Growth</span>
             <h1>Marketplace Seller Onboarding: Strategies That Scale</h1>
-            <p class="hero-subtitle">Master the seller acquisition funnel that converts prospective sellers into productive, long-term partners. Learn data standards, seller tools, and scaling approaches from across Lasoo, PurvX, and GS1 partnerships.</p>
-            <div class="article-meta">
-                <span class="author">By Pooja Sengupta</span>
-                <span class="read-time">19 min read</span>
+            <p class="hero-desc">Master the seller acquisition funnel that converts prospective sellers into productive, long-term partners. Learn data standards, seller tools, and scaling approaches from across Lasoo, PurvX, and GS1 partnerships.</p>
+            <div class="hero-meta">
+                <span>By Pooja Sengupta</span>
+                <span>19 min read</span>
             </div>
         </div>
-    </header>
+    </section>
 
-    <div class="container-narrow">
+    <div class="wrap--narrow">
         <nav class="toc">
-            <h3>Table of Contents</h3>
-            <ul>
+            <h3 class="toc-title">Table of Contents</h3>
+            <ol>
                 <li><a href="#why-onboarding-matters">Why Seller Onboarding Determines Marketplace Success</a></li>
                 <li><a href="#enterprise-vs-smb">Enterprise vs. SMB Acquisition: Different Playbooks</a></li>
                 <li><a href="#onboarding-funnel">Building the Onboarding Funnel</a></li>
@@ -85,10 +86,10 @@
                 <li><a href="#cross-functional">Cross-Functional Coordination</a></li>
                 <li><a href="#retention-expansion">Retention and Expansion</a></li>
                 <li><a href="#faq">FAQs</a></li>
-            </ul>
+            </ol>
         </nav>
 
-        <article class="article-content">
+        <article class="prose">
             <section id="why-onboarding-matters">
                 <h2>Why Seller Onboarding Determines Marketplace Success</h2>
                 <p>Marketplaces live or die on their sellers. Great platform technology means nothing if you have no compelling inventory. Sophisticated algorithms fail if underlying product data is garbage. Beautiful buyer experience withers without selection and competitive pricing.</p>
@@ -112,8 +113,10 @@
                 <p>The payoff depends on long-term seller value. If an enterprise seller generates $100K+ annual GMV and stays for 3+ years, $30K onboarding cost is easily justified. If an SMB seller generates $5K annual GMV and churns in 6 months, $1K onboarding cost is still marginal.</p>
                 <p>This is why different seller segments need different onboarding strategies.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Seller onboarding is your first and most important buyer funnel. Invest in it ruthlessly. It determines marketplace scale, quality, and long-term viability.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Seller onboarding is your first and most important buyer funnel. Invest in it ruthlessly. It determines marketplace scale, quality, and long-term viability.
+                </p>
                 </div>
             </section>
 
@@ -245,8 +248,10 @@
                     <li><strong>Dedicated Support During Launch:</strong> First 30 days, sellers had a dedicated support contact. They could call with questions. High-touch support reduced operational stress and improved retention.</li>
                 </ul>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Optimize the funnel in stages. Measure conversion at each stage. Test and iterate. At PurvX, optimization across all five stages delivered 3.2x conversion improvement within 12 months.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Optimize the funnel in stages. Measure conversion at each stage. Test and iterate. At PurvX, optimization across all five stages delivered 3.2x conversion improvement within 12 months.
+                </p>
                 </div>
             </section>
 
@@ -349,8 +354,10 @@
                 </ul>
                 <p><strong>Team Needed:</strong> 3-4 BD people + 3-4 ops people + 1 community manager + 2-3 support staff + 1 partner manager. Can manage 500-1000+ sellers.</p>
 
-                <div class="key-takeaway">
-                    <strong>Key Takeaway:</strong> Scaling onboarding requires systems investment at each stage. At 10 sellers, manual works. At 100, you need automation. At 500+, you need ecosystem and partners.
+                <div class="callout">
+                    <h4 class="callout-title">Key Takeaway</h4>
+                    <p> Scaling onboarding requires systems investment at each stage. At 10 sellers, manual works. At 100, you need automation. At 500+, you need ecosystem and partners.
+                </p>
                 </div>
             </section>
 
@@ -395,69 +402,77 @@
             </section>
         </article>
 
-        <section class="faq-section">
-            <h2 id="faq">Frequently Asked Questions</h2>
-            <div class="faq-item">
-                <h3>How long should seller onboarding take?</h3>
-                <p>Enterprise: 3-4 months (complex integrations, compliance). Growth: 6-8 weeks. SMB: 4-5 weeks (self-serve). The goal is quality, not speed. A seller that goes live with bad data and no support is worse than a seller that launches 2 weeks later with good data and training.</p>
-            </div>
-            <div class="faq-item">
-                <h3>What take-rate should I use?</h3>
-                <p>It depends on your costs and seller value. Typical range: 8-25% of GMV. Payment processing: 2-3%. Your margin: 5-20%. We used: 10-15% for anchor sellers (strategic), 15-20% for growth sellers, 20-25% for SMB sellers. Always include payment fees in the conversation with sellers.</p>
-            </div>
-            <div class="faq-item">
-                <h3>How do I help sellers succeed if they don't have data?</h3>
-                <p>Options: (1) Provide data enrichment services (paid). (2) Outsource data prep to third-party vendors. (3) Scrape data from their website or existing channels (with permission). (4) Use your internal category experts to help them structure data. (5) Make it seller's responsibility with clear, templated guidance. Combination of these usually works best.</p>
-            </div>
-        </section>
+            <section class="faq">
+                <h2 id="faq">Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How long should seller onboarding take?</h3>
+                    <p>Enterprise: 3-4 months (complex integrations, compliance). Growth: 6-8 weeks. SMB: 4-5 weeks (self-serve). The goal is quality, not speed. A seller that goes live with bad data and no support is worse than a seller that launches 2 weeks later with good data and training.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What take-rate should I use?</h3>
+                    <p>It depends on your costs and seller value. Typical range: 8-25% of GMV. Payment processing: 2-3%. Your margin: 5-20%. We used: 10-15% for anchor sellers (strategic), 15-20% for growth sellers, 20-25% for SMB sellers. Always include payment fees in the conversation with sellers.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I help sellers succeed if they don't have data?</h3>
+                    <p>Options: (1) Provide data enrichment services (paid). (2) Outsource data prep to third-party vendors. (3) Scrape data from their website or existing channels (with permission). (4) Use your internal category experts to help them structure data. (5) Make it seller's responsibility with clear, templated guidance. Combination of these usually works best.</p>
+                </div>
+            </section>
+        </article>
 
-        <section class="related-articles">
-            <h2>Related Articles</h2>
+        <aside class="related">
+            <h2>Related Reading</h2>
             <div class="card-grid">
                 <div class="card">
-                    <h3><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
-                    <p>Comprehensive strategy for catalogue-to-marketplace transformation, including seller acquisition and 120% MoM growth case study.</p>
-                    <div class="card-meta">Marketplace Strategy</div>
+                    <p class="card-label">Marketplace Strategy</p>
+                    <h3 class="card-title"><a href="transform-catalogue-to-marketplace.html">Transform Your Catalogue Into a Marketplace</a></h3>
+                    <p class="card-desc">Comprehensive strategy for catalogue-to-marketplace transformation, including seller acquisition and 120% MoM growth case study.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="data-standards-marketplace-success.html">Data Standards: The Foundation of Marketplace Success</a></h3>
-                    <p>Why GS1-compliant product data matters and how to enforce standards across a seller base.</p>
-                    <div class="card-meta">Marketplace Operations</div>
+                    <p class="card-label">Marketplace Operations</p>
+                    <h3 class="card-title"><a href="data-standards-marketplace-success.html">Data Standards: The Foundation of Marketplace Success</a></h3>
+                    <p class="card-desc">Why GS1-compliant product data matters and how to enforce standards across a seller base.</p>
                 </div>
                 <div class="card">
-                    <h3><a href="building-circular-fashion-marketplace.html">Building a Circular Fashion Marketplace from Scratch</a></h3>
-                    <p>Founder perspective on marketplace building, seller experience, and organic growth to 800% user growth in 6 months.</p>
-                    <div class="card-meta">Founder Insights</div>
+                    <p class="card-label">Founder Insights</p>
+                    <h3 class="card-title"><a href="building-circular-fashion-marketplace.html">Building a Circular Fashion Marketplace from Scratch</a></h3>
+                    <p class="card-desc">Founder perspective on marketplace building, seller experience, and organic growth to 800% user growth in 6 months.</p>
                 </div>
             </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Scale Your Seller Onboarding?</h2>
-                <p>Whether you're launching a marketplace or optimizing existing seller funnels, let's work through your specific onboarding challenges and opportunities.</p>
-                <a href="../contact.html" class="cta-button">Get in Touch</a>
-            </div>
-        </section>
+        </aside>
     </div>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-content">
-                <p>&copy; 2026 Pooja Sengupta. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="../about.html">About</a>
-                    <a href="../insights.html">Insights</a>
-                    <a href="https://linkedin.com/in/poojasengupta" target="_blank">LinkedIn</a>
-                    <a href="../contact.html">Contact</a>
-                </div>
-            </div>
+    <section class="cta">
+        <div class="wrap">
+            <h2>Ready to Scale Your Seller Onboarding?</h2>
+            <p>Whether you're launching a marketplace or optimizing existing seller funnels, let's work through your specific onboarding challenges and opportunities.</p>
+            <a href="../contact.html" class="btn btn--primary">Get in Touch</a>
+        </div>
+    </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="../insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="../marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="../ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="../founder-journey.html">Founder Journey</a>
+                <a href="../insights.html">Insights</a>
+                <a href="../about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
-        document.querySelector('.nav-toggle').addEventListener('click', function() {
-            document.querySelector('.nav-links').classList.toggle('active');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', function() {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
         });
     </script>
 </body>
