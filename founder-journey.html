@@ -104,41 +104,43 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Pooja</div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="marketplace-expertise.html">Marketplace Expertise</a></li>
-                <li><a href="ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                <li><a href="founder-journey.html" class="active">Founder Journey</a></li>
-                <li><a href="insights.html">Insights</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
+                <li><a href="ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
+                <li><a href="founder-journey.html" class="nav-link active">Founder Journey</a></li>
+                <li><a href="insights.html" class="nav-link">Insights</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs">
-        <div class="container">
+        <div class="wrap">
             <a href="index.html">Home</a> > <span>Founder Journey</span>
         </div>
     </div>
 
     <!-- Hero Section -->
-    <header class="hero hero-founder">
-        <div class="container">
+    <section class="hero hero--narrow">
+        <div class="hero-text">
             <h1>From Enterprise Executive to Twice-Founded Marketplace Builder</h1>
-            <p class="hero-subtitle">A decade of ecommerce and SaaS experience transformed into bootstrapped, high-growth ventures. Dropped Pin to PurvX: the story of building without permission or funding.</p>
+            <p class="hero-desc">A decade of ecommerce and SaaS experience transformed into bootstrapped, high-growth ventures. Dropped Pin to PurvX: the story of building without permission or funding.</p>
         </div>
-    </header>
+    </section>
 
     <!-- Main Content -->
-    <main class="container content">
+    <main class="wrap--narrow content">
 
         <!-- Table of Contents -->
-        <section class="toc">
+        <section class="section">
             <h2>On This Page</h2>
             <ul>
                 <li><a href="#dropped-pin">The First Venture: Dropped Pin</a></li>
@@ -153,7 +155,7 @@
         </section>
 
         <!-- Section: Dropped Pin -->
-        <section id="dropped-pin" class="founder-section">
+        <section id="dropped-pin" class="section">
             <h2>The First Venture: Dropped Pin (2010–2014)</h2>
 
             <p>After completing my MBA at Swinburne University in Australia, I returned to India with a different expectation of what fashion retail could be. In Australia, I'd grown accustomed to shopping at Forever 21, ASOS, and other international high-street retailers—brands offering contemporary, trend-driven fashion at accessible price points. Back in India, those options simply didn't exist. The local market had unilever, luxury boutiques, or bootleg fast fashion. There was a gap.</p>
@@ -190,7 +192,7 @@
         </section>
 
         <!-- Section: Enterprise Years -->
-        <section id="enterprise-years" class="founder-section">
+        <section id="enterprise-years" class="section">
             <h2>Enterprise Years: Building the Playbook (2014–2023)</h2>
 
             <p>Between Dropped Pin and PurvX, I spent a decade in high-growth ecommerce and SaaS companies, moving through roles that deepened my understanding of marketplace operations, team leadership, and P&L responsibility.</p>
@@ -233,7 +235,7 @@
         </section>
 
         <!-- Section: PurvX Story -->
-        <section id="purvx-story" class="founder-section">
+        <section id="purvx-story" class="section">
             <h2>The PurvX Story (August 2023–Present)</h2>
 
             <p>In mid-2023, I left enterprise to found PurvX: a circular marketplace for South Asian fashion. The timing was deliberate. I'd spent a decade watching ecommerce scale, and I'd seen two major gaps:</p>
@@ -269,7 +271,7 @@
         </section>
 
         <!-- Section: Zero-to-One -->
-        <section id="zero-to-one" class="founder-section">
+        <section id="zero-to-one" class="section">
             <h2>Zero-to-One: Bootstrapped Growth</h2>
 
             <p>Like Dropped Pin, PurvX was bootstrapped from inception. No venture funding, no external capital. This constraint was intentional and liberating.</p>
@@ -314,7 +316,7 @@
         </section>
 
         <!-- Section: Product & Growth -->
-        <section id="product-growth" class="founder-section">
+        <section id="product-growth" class="section">
             <h2>Product & Growth Lessons</h2>
 
             <p>PurvX's growth wasn't just about acquisition; it was about conversion and retention. Key metrics tell the story.</p>
@@ -359,7 +361,7 @@
         </section>
 
         <!-- Section: Enterprise Advantage -->
-        <section id="enterprise-advantage" class="founder-section">
+        <section id="enterprise-advantage" class="section">
             <h2>Enterprise Experience as Founder Advantage</h2>
 
             <p>There's a narrative that says enterprise experience makes you slow and risk-averse as a founder. I'd argue the opposite: if you learned the right things, enterprise is a massive advantage.</p>
@@ -390,7 +392,7 @@
         </section>
 
         <!-- Section: FAQ -->
-        <section id="faq" class="founder-section">
+        <section id="faq" class="section">
             <h2>Frequently Asked Questions</h2>
 
             <div class="faq-item">
@@ -420,7 +422,7 @@
         </section>
 
         <!-- Section: Related Articles -->
-        <section id="related" class="founder-section">
+        <section id="related" class="section">
             <h2>Related Articles</h2>
             <p>Dive deeper into the thinking behind PurvX and marketplace building:</p>
             <ul class="related-articles">
@@ -432,44 +434,49 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section">
-            <h2>Let's Build Something Together</h2>
-            <p>If you're scaling a marketplace, building a team, or thinking through ecommerce strategy, I'd love to talk.</p>
-            <a href="contact.html" class="cta-button">Get in Touch</a>
+        <section class="cta">
+            <div class="wrap">
+                <h2>Let's Build Something Together</h2>
+                <p>If you're scaling a marketplace, building a team, or thinking through ecommerce strategy, I'd love to talk.</p>
+                <a href="contact.html" class="btn btn--primary">Get in Touch</a>
+            </div>
         </section>
 
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Pages</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="marketplace-expertise.html">Marketplace Expertise</a></li>
-                        <li><a href="ecommerce-leadership.html">Ecommerce Leadership</a></li>
-                        <li><a href="founder-journey.html">Founder Journey</a></li>
-                        <li><a href="insights.html">Insights</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
-                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Pooja. All rights reserved.</p>
-            </div>
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
+                <a href="marketplace-expertise.html">Marketplace Expertise</a>
+                <a href="ecommerce-leadership.html">Ecommerce Leadership</a>
+                <a href="founder-journey.html">Founder Journey</a>
+                <a href="insights.html">Insights</a>
+                <a href="about.html">About</a>
+            </nav>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var toggle = document.getElementById('navToggle');
+      var menu = document.getElementById('navMenu');
+      toggle.addEventListener('click', function() {
+        var isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !isExpanded);
+        menu.classList.toggle('active');
+      });
+      menu.querySelectorAll('.nav-link').forEach(function(link) {
+        link.addEventListener('click', function() {
+          toggle.setAttribute('aria-expanded', 'false');
+          menu.classList.remove('active');
+        });
+      });
+    });
+    </script>
 
 </body>
 </html>

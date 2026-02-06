@@ -49,17 +49,15 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-brand">
-                <a href="index.html" class="brand-link">Pooja Sengupta</a>
-            </div>
-            <button class="navbar-toggle" id="navbarToggle" aria-label="Toggle navigation" aria-expanded="false">
+    <nav class="nav">
+        <div class="nav-bar">
+            <a href="index.html" class="nav-brand">Pooja Sengupta</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-            <ul class="navbar-menu" id="navbarMenu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="marketplace-expertise.html" class="nav-link">Marketplace Expertise</a></li>
                 <li><a href="ecommerce-leadership.html" class="nav-link">Ecommerce Leadership</a></li>
@@ -71,41 +69,38 @@
     </nav>
 
     <!-- Hero -->
-    <section class="hp-hero">
-        <div class="hp-hero-inner">
-            <div class="hp-hero-text">
+    <section class="hero">
+        <div class="hero-body">
+            <div class="hero-text">
                 <h1>Pooja Sengupta</h1>
-                <p class="hp-hero-tagline">Marketplaces and ecommerce, built from the inside</p>
-                <p class="hp-hero-desc">Founder and senior ecommerce leader with 18+ years of experience building and operating marketplaces across US, India, Australia, and global platforms. I've led revenue, partnerships, and execution, and I write about what actually works and breaks at scale.</p>
-                <div class="hp-hero-actions">
-                    <a href="insights.html" class="btn-primary">Read my work</a>
-                    <a href="https://linkedin.com/in/poojasengupta" class="btn-outline" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+                <p class="hero-tagline">Marketplaces and ecommerce, built from the inside</p>
+                <p class="hero-desc">Founder and senior ecommerce leader with 18+ years of experience building and operating marketplaces across US, India, Australia, and global platforms. I've led revenue, partnerships, and execution, and I write about what actually works and breaks at scale.</p>
+                <div class="hero-actions">
+                    <a href="insights.html" class="btn btn--primary">Read my work</a>
+                    <a href="https://linkedin.com/in/poojasengupta" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
                 </div>
             </div>
-            <div class="hp-hero-photo">
+            <div class="hero-photo">
                 <img src="images/pooja-sengupta.jpg" alt="Pooja Sengupta" onerror="this.parentElement.classList.add('no-image')">
             </div>
         </div>
     </section>
 
     <!-- What I Work On -->
-    <section class="hp-work">
-        <div class="hp-work-inner">
-            <h2>What I Work On</h2>
-            <p class="hp-work-intro">I spend my time on problems that sit between commerce, systems, and scale.</p>
-
-            <div class="hp-work-items">
-                <div class="hp-work-item">
+    <section class="section section--bordered">
+        <div class="wrap">
+            <h2 class="section-title">What I Work On</h2>
+            <p class="section-intro">I spend my time on problems that sit between commerce, systems, and scale.</p>
+            <div class="grid grid--3">
+                <div class="grid-item">
                     <h3>Marketplaces</h3>
                     <p>I've built and operated marketplaces where supply, demand, operations, and trust all matter. I focus on the hard parts most people underestimate once growth begins.</p>
                 </div>
-
-                <div class="hp-work-item">
+                <div class="grid-item">
                     <h3>Ecommerce leadership</h3>
                     <p>I've held senior roles in large ecommerce businesses, owning outcomes across revenue, partnerships, and execution, not just strategy decks.</p>
                 </div>
-
-                <div class="hp-work-item">
+                <div class="grid-item">
                     <h3>Founder work</h3>
                     <p>I build when I see problems that are expensive, culturally nuanced, or structurally ignored. My work as a founder is grounded in execution, not hype.</p>
                 </div>
@@ -114,10 +109,10 @@
     </section>
 
     <!-- Experience, at a Glance -->
-    <section class="hp-glance">
-        <div class="hp-glance-inner">
-            <h2>Experience, at a Glance</h2>
-            <ul class="hp-glance-list">
+    <section class="section section--dark">
+        <div class="wrap">
+            <h2 class="section-title">Experience, at a Glance</h2>
+            <ul class="dash-list">
                 <li>15+ years across ecommerce and marketplaces</li>
                 <li>Senior leadership roles across India and Australia</li>
                 <li>Revenue ownership and scaled partnerships</li>
@@ -127,88 +122,83 @@
     </section>
 
     <!-- Selected Thinking -->
-    <section class="hp-thinking">
-        <div class="hp-thinking-inner">
-            <h2>Selected Thinking</h2>
-            <p class="hp-thinking-intro">I write about marketplaces, ecommerce, and scale from an operator's point of view.</p>
-
-            <div class="hp-thinking-items">
-                <article class="hp-thinking-item">
+    <section class="section section--bordered">
+        <div class="wrap--narrow">
+            <h2 class="section-title">Selected Thinking</h2>
+            <p class="section-intro">I write about marketplaces, ecommerce, and scale from an operator's point of view.</p>
+            <div class="article-list">
+                <article class="article-list-item">
                     <h3><a href="articles/transform-catalogue-to-marketplace.html">Why most marketplaces struggle after product–market fit</a></h3>
                     <p>What breaks when growth exposes weak assumptions around supply, operations, and incentives.</p>
                 </article>
-
-                <article class="hp-thinking-item">
+                <article class="article-list-item">
                     <h3><a href="articles/building-circular-fashion-marketplace.html">Cultural context is not a "nice to have" in ecommerce</a></h3>
                     <p>Why generic platforms fail users when nuance actually matters.</p>
                 </article>
-
-                <article class="hp-thinking-item">
+                <article class="article-list-item">
                     <h3><a href="articles/marketplace-merchandising-at-scale.html">What running large ecommerce businesses teaches you that startups don't</a></h3>
                     <p>Lessons from owning outcomes at scale.</p>
                 </article>
             </div>
-
-            <a href="insights.html" class="hp-thinking-all">Read all insights →</a>
+            <a href="insights.html" class="arrow-link">Read all insights →</a>
         </div>
     </section>
 
     <!-- Founder Journey -->
-    <section class="hp-founder">
-        <div class="hp-founder-inner">
-            <h2>Founder Journey</h2>
+    <section class="section section--alt">
+        <div class="wrap--narrow">
+            <h2 class="section-title">Founder Journey</h2>
             <p>I didn't start companies to be a founder. I started because I saw gaps that large platforms weren't solving well.</p>
             <p>My founder work sits at the intersection of commerce, culture, and systems, shaped by years of operating inside large marketplaces.</p>
-            <a href="founder-journey.html" class="hp-founder-link">Read my founder journey →</a>
+            <a href="founder-journey.html" class="arrow-link">Read my founder journey →</a>
         </div>
     </section>
 
     <!-- Who This Site Is For -->
-    <section class="hp-audience">
-        <div class="hp-audience-inner">
-            <h2>Who This Site Is For</h2>
+    <section class="section">
+        <div class="wrap--narrow">
+            <h2 class="section-title">Who This Site Is For</h2>
             <p>This site is for people who are:</p>
-            <ul>
+            <ul class="dash-list dash-list--bordered">
                 <li>building or investing in marketplaces</li>
                 <li>operating and scaling ecommerce businesses</li>
                 <li>writing or researching how platforms actually work</li>
             </ul>
-            <p class="hp-audience-close">If that sounds like you, you're in the right place.</p>
+            <p class="closing">If that sounds like you, you're in the right place.</p>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="hp-footer">
-        <div class="hp-footer-inner">
-            <p class="hp-footer-connect">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
-            <p class="hp-footer-sub">Or explore my <a href="insights.html">writing</a> and work across marketplaces and ecommerce.</p>
-            <nav class="hp-footer-nav">
+    <footer class="footer">
+        <div class="footer-bar">
+            <p class="footer-headline">Find me on <a href="https://linkedin.com/in/poojasengupta" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p class="footer-sub">Or explore my <a href="insights.html">writing</a> and work across marketplaces and ecommerce.</p>
+            <nav class="footer-nav">
                 <a href="marketplace-expertise.html">Marketplace Expertise</a>
                 <a href="ecommerce-leadership.html">Ecommerce Leadership</a>
                 <a href="founder-journey.html">Founder Journey</a>
                 <a href="insights.html">Insights</a>
                 <a href="about.html">About</a>
             </nav>
-            <p class="hp-footer-copy">&copy; 2026 Pooja Sengupta</p>
+            <p class="footer-copy">&copy; 2026 Pooja Sengupta</p>
         </div>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const navbarToggle = document.getElementById('navbarToggle');
-            const navbarMenu = document.getElementById('navbarMenu');
+            const toggle = document.getElementById('navToggle');
+            const menu = document.getElementById('navMenu');
 
-            navbarToggle.addEventListener('click', function() {
-                const isExpanded = navbarToggle.getAttribute('aria-expanded') === 'true';
-                navbarToggle.setAttribute('aria-expanded', !isExpanded);
-                navbarMenu.classList.toggle('active');
+            toggle.addEventListener('click', function() {
+                const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', !isExpanded);
+                menu.classList.toggle('active');
             });
 
-            const navLinks = navbarMenu.querySelectorAll('.nav-link');
-            navLinks.forEach(link => {
+            menu.querySelectorAll('.nav-link').forEach(function(link) {
                 link.addEventListener('click', function() {
-                    navbarToggle.setAttribute('aria-expanded', 'false');
-                    navbarMenu.classList.remove('active');
+                    toggle.setAttribute('aria-expanded', 'false');
+                    menu.classList.remove('active');
                 });
             });
         });
