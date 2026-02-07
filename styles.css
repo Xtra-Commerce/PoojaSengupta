@@ -801,6 +801,38 @@ strong { font-weight: 600; color: var(--ink); }
   margin-top: 0.5rem;
 }
 
+/* ========== PRESS ========== */
+.press-label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+  margin-bottom: 1.5rem;
+}
+
+.press-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.press-list li {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+/* ========== DARK SECTION OVERRIDES ========== */
+.section--dark .closing {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 /* ========== CTA ========== */
 .cta {
   padding: 5rem 0;
@@ -1025,6 +1057,9 @@ strong { font-weight: 600; color: var(--ink); }
   /* Sections */
   .section { padding: 3.5rem 0; }
   .section--dark { padding: 3rem 0; }
+
+  /* Press */
+  .press-list { flex-direction: column; gap: 0.75rem; }
 
   /* Footer */
   .footer-nav { gap: 1.25rem; }
