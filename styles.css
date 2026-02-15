@@ -917,15 +917,17 @@ strong { font-weight: 700; color: var(--ink); }
   white-space: nowrap;
 }
 .logo-strip img {
-  height: 28px;
+  height: 34px;
   width: auto;
-  opacity: 0.55;
+  max-width: 120px;
+  object-fit: contain;
+  opacity: 0.5;
   filter: grayscale(100%);
-  transition: opacity 0.3s var(--ease);
+  transition: opacity 0.3s var(--ease), filter 0.3s var(--ease);
   flex-shrink: 0;
 }
 .logo-strip img:hover {
-  opacity: 0.85;
+  opacity: 0.8;
 }
 
 /* ========== PRESS THUMBNAILS ========== */
@@ -1250,8 +1252,8 @@ strong { font-weight: 700; color: var(--ink); }
   .press-thumbs { flex-wrap: wrap; }
 
   /* Logo strip */
-  .logo-strip { gap: 2rem; }
-  .logo-strip img { height: 22px; }
+  .logo-strip { gap: 2rem 2.5rem; }
+  .logo-strip img { height: 28px; max-width: 100px; }
 
   /* Page-specific grids */
   .about-grid { grid-template-columns: 1fr; }
@@ -1302,9 +1304,9 @@ strong { font-weight: 700; color: var(--ink); }
   .press-list { flex-direction: column; gap: 0.75rem; }
   .press-thumbs { gap: 1rem; }
   .press-thumb { width: 140px; height: 95px; }
-  .logo-strip { gap: 1.25rem; }
+  .logo-strip { gap: 1.5rem 2rem; justify-content: center; }
   .logo-strip span { font-size: 0.78rem; }
-  .logo-strip img { height: 18px; }
+  .logo-strip img { height: 24px; max-width: 85px; }
 
   /* Footer */
   .footer-nav { gap: 1.25rem; }
