@@ -899,6 +899,138 @@ strong { font-weight: 700; color: var(--ink); }
   letter-spacing: -0.01em;
 }
 
+/* ========== LOGO STRIP ========== */
+.logo-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0;
+}
+.logo-strip span {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* ========== PRESS THUMBNAILS ========== */
+.press-thumbs {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.press-thumb {
+  width: 200px;
+  height: 130px;
+  overflow: hidden;
+  border: 1px solid var(--rule-light);
+  filter: grayscale(100%);
+  opacity: 0.75;
+  transition: all 0.3s var(--ease);
+}
+.press-thumb:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.press-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ========== SPLIT SECTION ========== */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--rule-light);
+}
+.split:last-child { border-bottom: none; }
+.split--reverse .split-image { order: 2; }
+.split--reverse .split-text { order: 1; }
+.split-image {
+  overflow: hidden;
+  border: 1px solid var(--rule-light);
+}
+.split-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.split-text h2 {
+  font-size: clamp(1.3rem, 2.5vw, 1.65rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.split-text p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  margin-bottom: 0.75rem;
+}
+.split-text p:last-child { margin-bottom: 0; }
+
+/* ========== PROJECT CARDS ========== */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.project-card {
+  border: 1px solid var(--rule-light);
+  overflow: hidden;
+  transition: border-color 0.3s var(--ease);
+}
+.project-card:hover {
+  border-color: var(--accent);
+}
+.project-card-image {
+  height: 220px;
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-card-body {
+  padding: 1.5rem;
+}
+.project-card-body h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.project-card-body p {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink-2);
+  margin-bottom: 0;
+}
+
+/* ========== TWO-COL CONTENT ========== */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.two-col p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+
 /* ========== DARK SECTION OVERRIDES ========== */
 .section--dark .closing {
   color: rgba(255, 255, 255, 0.6);
@@ -1092,6 +1224,23 @@ strong { font-weight: 700; color: var(--ink); }
   /* Dark dash list */
   .section--dark .dash-list { grid-template-columns: 1fr; }
 
+  /* Split sections */
+  .split { grid-template-columns: 1fr; gap: 2rem; }
+  .split--reverse .split-image { order: 0; }
+  .split--reverse .split-text { order: 0; }
+
+  /* Project cards */
+  .project-grid { grid-template-columns: 1fr; }
+
+  /* Two-col */
+  .two-col { grid-template-columns: 1fr; }
+
+  /* Press thumbs */
+  .press-thumbs { flex-wrap: wrap; }
+
+  /* Logo strip */
+  .logo-strip { gap: 2rem; }
+
   /* Page-specific grids */
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { width: 200px; height: 240px; margin: 0 auto; }
@@ -1139,6 +1288,10 @@ strong { font-weight: 700; color: var(--ink); }
 
   /* Press */
   .press-list { flex-direction: column; gap: 0.75rem; }
+  .press-thumbs { gap: 1rem; }
+  .press-thumb { width: 140px; height: 95px; }
+  .logo-strip { gap: 1.25rem; }
+  .logo-strip span { font-size: 0.78rem; }
 
   /* Footer */
   .footer-nav { gap: 1.25rem; }
