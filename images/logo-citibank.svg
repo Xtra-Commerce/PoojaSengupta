@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- citibank text -->
+  <text x="200" y="88" font-family="'ITC Officina Sans', Arial, Helvetica, sans-serif" font-size="78" font-weight="400" fill="#003B70" text-anchor="middle" letter-spacing="0.01em">citibank</text>
+  <!-- Red arc over the t -->
+  <path d="M 140 22 A 30 30 0 0 1 178 22" fill="none" stroke="#E31937" stroke-width="8" stroke-linecap="round"/>
+</svg>

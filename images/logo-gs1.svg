@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200">
+  <g transform="translate(90, 5)">
+    <!-- Blue circle -->
+    <circle cx="80" cy="80" r="78" fill="#1B3A6B"/>
+    <!-- Concentric white arcs (left side) -->
+    <path d="M 38 130 A 65 65 0 0 1 38 30" fill="none" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 28 125 A 72 72 0 0 1 28 35" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 18 120 A 80 80 0 0 1 18 40" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 10 112 A 85 85 0 0 1 10 48" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+    <!-- GS1 text -->
+    <text x="85" y="72" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="white" text-anchor="middle">GS</text>
+    <text x="128" y="72" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#8A9BB5" text-anchor="middle">1</text>
+    <!-- Registered trademark -->
+    <text x="155" y="20" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1B3A6B">&#174;</text>
+  </g>
+  <!-- Australia text -->
+  <text x="245" y="190" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#E8732A" text-anchor="middle">Australia</text>
+</svg>
