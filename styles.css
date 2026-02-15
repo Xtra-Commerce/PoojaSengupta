@@ -916,6 +916,17 @@ strong { font-weight: 700; color: var(--ink); }
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
+.logo-strip img {
+  height: 28px;
+  width: auto;
+  opacity: 0.55;
+  filter: grayscale(100%);
+  transition: opacity 0.3s var(--ease);
+  flex-shrink: 0;
+}
+.logo-strip img:hover {
+  opacity: 0.85;
+}
 
 /* ========== PRESS THUMBNAILS ========== */
 .press-thumbs {
@@ -1240,6 +1251,7 @@ strong { font-weight: 700; color: var(--ink); }
 
   /* Logo strip */
   .logo-strip { gap: 2rem; }
+  .logo-strip img { height: 22px; }
 
   /* Page-specific grids */
   .about-grid { grid-template-columns: 1fr; }
@@ -1292,6 +1304,7 @@ strong { font-weight: 700; color: var(--ink); }
   .press-thumb { width: 140px; height: 95px; }
   .logo-strip { gap: 1.25rem; }
   .logo-strip span { font-size: 0.78rem; }
+  .logo-strip img { height: 18px; }
 
   /* Footer */
   .footer-nav { gap: 1.25rem; }
